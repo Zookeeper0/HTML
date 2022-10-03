@@ -1,5 +1,5 @@
 @import url("./box.css");
-
+/* import 방식은 보통 main CSS가 다 해석된뒤 불러오기 때문에 고의로 늦게 CSS를 덮어쓸때 사용할 수 있거나 방법에따라.. */
 div {
   font-size: 100px;
 }
