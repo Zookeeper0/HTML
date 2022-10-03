@@ -3,9 +3,3 @@ div {
   height: 500px;
   background: url("../images/logo.png"); /* 상대 경로 */
 }
-
-.final {
-  width: 500px;
-  height: 500px;
-  background: url("/images/logo.png"); /* 절대 경로, 루트 최상위 부터 시작 */
-}
