@@ -1,0 +1,16 @@
+.parent {
+  width: 300px;
+  height: 400px;
+  background-color: red;
+}
+
+/* height: inherit; 기본적으로 상속을 글자와 관련되있는데 
+그외 자동으로 상속되지않은 다양한 값은 inherit으로 가능 */
+.child {
+  width: 100px;
+  height: inherit;
+  background-color: inherit;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}

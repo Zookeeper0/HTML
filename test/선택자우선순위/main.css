@@ -1,0 +1,26 @@
+/* 1점 */
+div {
+  font-size: 70px;
+}
+/* 100점 */
+/* #hello {
+  color: blue;
+} */
+/* 10점 */
+/* 점수가 같을때는 나중에 해석되는 코드가 우선 */
+/* 11점 */
+div.hello {
+  color: red;
+}
+.hello {
+  color: green;
+}
+
+* {
+}
+div {
+}
+.hello {
+}
+#hello {
+}

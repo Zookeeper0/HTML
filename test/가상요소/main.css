@@ -1,0 +1,19 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+/* ::before, ::after는 content라는 속성이 없더라도 추가하고 봐야한다, 없으면 동작하지 않음 */
+.box::before {
+  content: "--";
+}
+.box::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: royalblue;
+}
+
+/* ::before, ::after 가상요소는 인라인 요소이다, 가로세로값 지정x, 가로세로 값 지정해줄려면
+인라인을 블록요소로 전환해줘야하는데 그때 쓰는게 display: block */
